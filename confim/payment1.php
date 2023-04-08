@@ -22,7 +22,7 @@ if(empty($txtFormName)||empty($txtphone)||empty($txtFormEmail)||empty($txttotal)
     $_SESSION['rdoBank'] = $rdoBank;
 
 
-    header('location:result.php');
+    header('location:../main/result.php');
 }
 
 
